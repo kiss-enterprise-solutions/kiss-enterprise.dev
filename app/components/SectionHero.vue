@@ -1,6 +1,12 @@
 <template>
   <header id="hero">
     <div class="px-4 py-5 my-5 text-center">
+      <img
+        src="/logo.svg"
+        alt="KISS Enterprise Solutions logo"
+        style="width: 96px"
+        class="mb-2"
+      />
       <h1 class="display-5 fw-bold text-body-emphasis">
         KISS Enterprise Solutions
       </h1>

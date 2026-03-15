@@ -3,9 +3,9 @@
 <template>
   <section id="platform">
     <div class="text-center mx-auto">
-      <h1 class="fw-semibold display-5">Наша технологическая платформа</h1>
+      <h2 class="fw-semibold">Наша технологическая платформа</h2>
     </div>
-    <div class="row my-5 mx-auto">
+    <div class="row row-cols-lg-auto my-5 mx-auto gap-5">
       <div class="col text-center mx-auto">
         <a href="https://www.typescriptlang.org/">
           <img

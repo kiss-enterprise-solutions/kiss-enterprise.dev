@@ -40,6 +40,7 @@
                 cols="30"
                 rows="10"
                 class="form-control"
+                style="height: 150px"
               ></textarea>
               <label for="clientTask"> Опишите свою задачу... </label>
             </div>
