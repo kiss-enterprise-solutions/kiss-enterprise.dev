@@ -5,7 +5,7 @@
     <div class="container">
       <div class="py-3 my-4">
         <p class="text-center text-body-secondary">
-          © 2026 KISS Enterprise Solutions
+          © {{ new Date().getFullYear() }} {{ $t("company.name") }}
         </p>
       </div>
     </div>

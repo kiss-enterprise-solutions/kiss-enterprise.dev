@@ -3,31 +3,35 @@
     <div class="container px-4 py-5">
       <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
         <div class="col d-flex flex-column align-items-start gap-2">
-          <h2 class="fw-bold text-body-emphasis">Почему мы?</h2>
+          <h2 class="fw-bold text-body-emphasis">
+            {{ $t("advantages.whyUs.title") }}
+          </h2>
           <p class="text-body-secondary">
-            Мы придерживаемся принципа KISS (Keep It Simple, Stupid).
+            {{ $t("advantages.whyUs.subtitle") }}
           </p>
 
-          Преимущества принципа KISS:
+          {{ $t("advantages.whyUs.listTitle") }}
           <ul>
-            <li>системы легко поддерживать и развивать</li>
-            <li>масштабируются вместе с ростом компании</li>
-            <li>понятная архитектура без технического долга</li>
+            <li>{{ $t("advantages.whyUs.list[0]") }}</li>
+            <li>{{ $t("advantages.whyUs.list[1]") }}</li>
+            <li>{{ $t("advantages.whyUs.list[2]") }}</li>
           </ul>
         </div>
 
         <div class="col d-flex flex-column align-items-start gap-2">
-          <h2 class="fw-bold text-body-emphasis">Почему нам доверяют?</h2>
+          <h2 class="fw-bold text-body-emphasis">
+            {{ $t("advantages.trust.title") }}
+          </h2>
           <p class="text-body-secondary">
-            При разработке мы учитываем следующие особенности наших продуктов:
+            {{ $t("advantages.trust.subtitle") }}
           </p>
 
           <ul>
-            <li>Open-source стек</li>
-            <li>прозрачная и документированная архитектура</li>
-            <li>отсутствие vendor lock-in</li>
-            <li>возможность on-premise</li>
-            <li>возможность дальнейшей разработки другими командами</li>
+            <li>{{ $t("advantages.trust.list[0]") }}</li>
+            <li>{{ $t("advantages.trust.list[1]") }}</li>
+            <li>{{ $t("advantages.trust.list[2]") }}</li>
+            <li>{{ $t("advantages.trust.list[3]") }}</li>
+            <li>{{ $t("advantages.trust.list[4]") }}</li>
           </ul>
         </div>
       </div>
