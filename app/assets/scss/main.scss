@@ -1,6 +1,12 @@
-// Bootstrap
+// Define main color scheme from brandbook
+$primary: #896e5a;
+$secondary: #5b5b5b;
+$light: #f7f7f6;
+$dark: #2b2a29;
+
+// Import Bootstrap
 @import "bootstrap/scss/bootstrap";
 
-// Bootstrap Icons
+// Import Bootstrap Icons
 $bootstrap-icons-font-dir: "bootstrap-icons/font/fonts";
 @import "bootstrap-icons/font/bootstrap-icons";
